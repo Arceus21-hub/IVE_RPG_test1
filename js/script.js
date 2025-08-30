@@ -11,7 +11,7 @@ const miembros = [
     crit: 0.2,
     nivel: 1,
     exp: 0,
-    imagen: "IVEpics/yujin1.png",
+    imagen: "images/yujin1.png",
   },
   {
     nombre: "Gaeul",
@@ -22,7 +22,7 @@ const miembros = [
     crit: 0.1,
     nivel: 1,
     exp: 0,
-    imagen: "IVEpics/gaeul1.png",
+    imagen: "images/gaeul1.png",
   },
   {
     nombre: "Rei",
@@ -33,7 +33,7 @@ const miembros = [
     crit: 0.05,
     nivel: 1,
     exp: 0,
-    imagen: "IVEpics/rei1.png",
+    imagen: "images/rei1.png",
   },
   {
     nombre: "Liz",
@@ -44,7 +44,7 @@ const miembros = [
     crit: 0.25,
     nivel: 1,
     exp: 0,
-    imagen: "IVEpics/liz1.png",
+    imagen: "images/liz1.png",
   },
   {
     nombre: "Wonyoung",
@@ -55,7 +55,7 @@ const miembros = [
     crit: 0.3,
     nivel: 1,
     exp: 0,
-    imagen: "IVEpics/wony1.png",
+    imagen: "images/wony1.png",
   },
   {
     nombre: "Leeseo",
@@ -66,7 +66,7 @@ const miembros = [
     crit: 0.15,
     nivel: 1,
     exp: 0,
-    imagen: "IVEpics/leeseo1.png",
+    imagen: "images/leeseo1.png",
   },
 ];
 
