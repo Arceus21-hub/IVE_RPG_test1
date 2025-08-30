@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IVE RPG - THE WEBGAME</title>
+    <link rel="stylesheet" href="CSS/IVEstyles.css" />
+  </head>
+  <body>
+    <h1>✨ IVE RPG vs Haters ⚔️</h1>
+
+    <!-- Barra de vida del enemigo -->
+    <h2>Enemigo: Hater de IVE</h2>
+    <div class="barra">
+      <div id="enemigoVida" class="vida enemigo" style="width: 100%"></div>
+    </div>
+    <p id="enemigoHP"></p>
+
+    <!-- Barra de vida del jugador -->
+    <h2>Party (IVE)</h2>
+    <div class="barra">
+      <div id="partyVida" class="vida" style="width: 100%"></div>
+    </div>
+    <p id="partyHP"></p>
+
+    <!-- Indicador de turno -->
+    <div id="turno" class="turno">Turno actual:</div>
+    <div id="turnoBox">
+      <p id="turno"></p>
+      <p id="nivelIntegrante"></p>
+
+      <img id="turnoImg" src="" alt="Imagen del turno" width="200" />
+    </div>
+
+    <!-- Acciones -->
+    <div class="acciones">
+      <button class="skill" onclick="accion('ataque')">Ataque Básico</button>
+      <button class="skill" onclick="accion('skill')">Habilidad Especial</button>
+      <button class="item" onclick="usarItem()">Usar Item</button>
+    </div>
+
+    <!-- Estado -->
+    <div class="estado" id="estado"></div>
+
+    <!-- Record -->
+    <h2>📜 Stats:</h2>
+    <p id="record"></p>
+    <script src="js/IVEScript.js"></script>
+  </body>
+</html>
